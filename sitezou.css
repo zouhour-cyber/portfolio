@@ -1,0 +1,141 @@
+
+.navbar{
+        position: fixed;
+        top: 0;
+        width:100%;
+        height:40px;
+  
+       
+      }
+.navbar a {
+        float: right;
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding:15px 30px;
+        text-decoration: none;
+        font-size: 17px;
+
+        }
+.navbar a:hover {
+       background:whitesmoke;
+    
+    }
+    .section1{
+        background: url(imagesite/dvp3.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        height:400px;
+    }
+   header{padding: 30px 60px ;
+   font-family: cursive;}
+    h1{
+    font-family:cursive;
+    font-size:40px;
+    text-align: left;
+    font-weight: bold;
+      }
+
+    h2{
+        
+        font-size: 30px;
+        text-align: left;
+        
+     }
+     #A-propos{display: flex;
+    justify-content: space-around;}
+    .content{ padding-top: 40px;
+      text-align: center;}
+      h3{font-size: 30px;
+      text-align: center;}
+      .center{text-align: center;}
+      .pics1{display:flex;
+      flex-wrap: nowrap;
+      justify-content:space-around;
+      
+       }
+
+      
+      .progressbar{
+        display:flex;
+        justify-content:space-between;
+      }
+
+     .prog{width:"50%"}
+     
+       #Services{text-justify: center;}
+     .pics2{
+      display:flex;
+      justify-content:space-around;
+    }
+.section4{height:100px;
+}
+    /*...............contact..........*/
+ .contact{
+
+   padding-top:40px;
+   bottom: 100vh;
+  display:flex;
+  justify-content: space-around;
+  margin-top:60px;
+  height:40vh;
+ 
+ }
+
+ select, input[type=text],input[type=email], input[type=tel] {
+  width: 50vh;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+ 
+}
+
+input [type=date]{
+width: 50vh;
+padding: 12px 10px;
+margin: 8px 10px;
+display: inline-block;
+}
+
+ textarea{ 
+  margin: 3px 3px; 
+}
+ i{width: 50px;}
+ .coordonnées{
+   padding-right:70px;
+   padding-top: 50px;
+   font-size:16px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ /*..........bouton envoyer..............*/
+ #Envoyer{
+ margin-top:30px;
+ margin-left:40vh;
+ width: 20vh;
+ background-color:rgb(73, 216, 221);
+ color:black;
+ font-weight:bold;
+ font-size:20px;
+ padding: 5px;
+ border-radius: 4px;
+ cursor: pointer;
+ box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+ 
+}
+   
+ 
+
+footer
+{ background-color:rgb(93, 136, 136);
+height:10vh;
+padding:20px;}
+
+    
+
+
+
+
+     
+
